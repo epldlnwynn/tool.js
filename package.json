@@ -1,7 +1,7 @@
 {
     "name": "tool.js",
     "version": "1.0.0",
-    "description": "这是一个简单的 WEB 端快捷键监控和设置工具包",
+    "description": "tool.js is a tool class that extends many commonly used functions.",
     "keywords": [
         "tools",
         "web tool",

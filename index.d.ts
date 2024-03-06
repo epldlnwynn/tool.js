@@ -37,8 +37,15 @@ interface DateConstructor {
     newDate(noTime?:boolean): Date;
     unixTime(): number;
 }
+
 interface Date {
     localeTimeString(style?: "full" | "long" | "medium" | "short" | undefined): string;
     localeDateString(style?: "full" | "long" | "medium" | "short" | undefined): string;
+
+    format(format: string): string;
+
+    addDays(days: number): Date;
+    addHours(hours: number): Date;
+    addSeconds(seconds: number): Date;
 
 }

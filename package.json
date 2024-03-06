@@ -3,9 +3,13 @@
     "version": "1.0.0",
     "description": "tool.js is a tool class that extends many commonly used functions.",
     "keywords": [
+        "工具箱",
         "tools",
-        "web tool",
-        "tool js"
+        "web-lib",
+        "js-utils",
+        "js-lib",
+        "utils",
+        "webjs"
     ],
     "author": "epldlnwynn",
     "repository": {
@@ -17,10 +21,11 @@
     "files": [
         "LICENSE",
         "README.md",
+        "lib/*.js",
         "*.d.ts",
         "*.js"
     ],
-    "license": "MIT",
+    "license": "ISC",
     "private": false,
     "publishConfig": {
         "access": "public"

@@ -1,5 +1,5 @@
 {
-    "name": "tool.js",
+    "name": "tool-extend",
     "version": "1.0.0",
     "description": "tool.js is a tool class that extends many commonly used functions.",
     "keywords": [
@@ -25,12 +25,12 @@
         "*.d.ts",
         "*.js"
     ],
-    "license": "ISC",
+    "license": "MIT",
     "private": false,
     "publishConfig": {
         "access": "public"
     },
-    "typings": "./index.d.ts",
+
     "scripts": {
         "release": "release-it"
     },

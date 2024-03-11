@@ -16,11 +16,11 @@ yarn add tool-extend
 
 # install types
 
-npm i @types/tool-extend -D
+npm i @types/tool.js -D
 
 # or
 
-yarn add @types/tool-extend -D
+yarn add @types/tool.js -D
 
 
 ```
@@ -30,7 +30,7 @@ yarn add @types/tool-extend -D
 
 ```typescript
 
-// file app.js
+// file app.js or app.vue
 import "tool-extend"
 
 ```

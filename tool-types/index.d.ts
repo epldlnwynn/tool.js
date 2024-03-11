@@ -1,4 +1,3 @@
-/// <reference types="node"/>
 
 export {}
 
@@ -48,7 +47,7 @@ declare global {
     interface Object {
 
         toJSONString(): string;
-        toJSONString(replacer?: (number | string)[] | null, space?: string | number): string;
+        toJSONString(replacer?: any[] | null, space?: string | number): string;
         toJSONString(replacer?: (this: any, key: string, value: any) => any, space?: string | number): string;
 
     }
@@ -57,7 +56,7 @@ declare global {
 
         setJSON<T = any>(key: string, value: T): T;
 
-        getJSON<T = any>(key: string): T;
+        getJSON(key: string): any;
 
     }
 

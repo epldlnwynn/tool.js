@@ -1,6 +1,6 @@
 {
     "name": "tool-extend",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "tool.js is a tool class that extends many commonly used functions.",
     "keywords": [
         "工具箱",
